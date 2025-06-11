@@ -120,7 +120,7 @@
             document.getElementById('adminSection').style.display = 'none';
             
             // 显示管理员区域的简单密码验证
-            const password = prompt("请输入管理员密码(默认:123)");
+            const password = prompt("请输入管理员密码");
             if (password === "123") {
                 document.getElementById('adminSection').style.display = 'block';
                 loadDataPreview();
